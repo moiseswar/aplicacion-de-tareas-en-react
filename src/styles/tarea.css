@@ -43,8 +43,8 @@
     color: crimson;
 }
 
-.completada{
-    background-color: #5a01a7;
+.tarea-contenedor.completada{
+    background-color: #8b06ff;
     text-decoration: line-through;
 
 }
