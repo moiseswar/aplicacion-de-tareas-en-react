@@ -48,3 +48,11 @@
     text-decoration: line-through;
 
 }
+
+.tarea-contenedor:hover{
+    background-color: #01012b;
+}
+
+.tarea-contenedor.completada:hover{
+    background-color: #b25cfd;
+}
