@@ -1,6 +1,6 @@
 import './App.css';
 import LogoFreeCodeCamp from './components/free-code-camp-logo';
-import Lista_tareas from './components/lista-tareas';
+import ListaTareas from './components/lista-tareas';
 
 function App() {
   return (
@@ -8,7 +8,7 @@ function App() {
       <LogoFreeCodeCamp/>
       <div className='contedor-tareas'>
         <h1>Mis tareas</h1>
-        <Lista_tareas/>
+        <ListaTareas/>
       </div>
     </div>
   );

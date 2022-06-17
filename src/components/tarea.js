@@ -1,4 +1,4 @@
-import '../styles/tarea.css'
+import '../styles/tarea.css';
 import { AiOutlineCloseCircle } from "react-icons/ai";
 
 function Tarea({texto,completada,id, completarTarea, eliminarTarea}) {
@@ -14,5 +14,5 @@ function Tarea({texto,completada,id, completarTarea, eliminarTarea}) {
             </div>
         </div>
     );
-}
-export default Tarea
+};
+export default Tarea;

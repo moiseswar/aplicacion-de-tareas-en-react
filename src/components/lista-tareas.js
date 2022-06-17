@@ -1,5 +1,5 @@
 import Form from "./form";
-import '../styles/lista.css'
+import '../styles/lista.css';
 import { useState } from "react";
 import Tarea from "./tarea";
 
@@ -11,12 +11,12 @@ function Lista_tareas() {
             const tareasActualizadas = [tarea, ...tareas]
             setTareas(tareasActualizadas);
         }
-    }
+    };
 
     const eliminartarea = id => {
         const tareasActualizadas = tareas.filter(tarea => tarea.id !== id);
         setTareas(tareasActualizadas)
-    }
+    };
 
     const completartarea = id =>{
         const tareasActualizadas = tareas.map(tarea => {
@@ -24,9 +24,9 @@ function Lista_tareas() {
                 tarea.completada = !tarea.completada
             }
             return tarea
-        })
-        setTareas(tareasActualizadas)
-    }
+        });
+        setTareas(tareasActualizadas);
+    };
 
     return(
         <>
@@ -47,6 +47,6 @@ function Lista_tareas() {
             </div>
         </>
     );
-}
+};
 
-export default Lista_tareas
+export default Lista_tareas;
