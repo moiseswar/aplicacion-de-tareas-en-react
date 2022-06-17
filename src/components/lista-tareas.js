@@ -5,6 +5,9 @@ import Tarea from "./tarea";
 
 function Lista_tareas() {
     const [tareas, setTares] = useState([]);
+    const agregartarea= tarea => {
+        
+    }
     return(
         <>
             <Form/>
